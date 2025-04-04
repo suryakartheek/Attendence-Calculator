@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>S-VYASA Attendance Tracker</h1>
+        <div class="input-group">
+            <label for="totalClasses">Total Classes:</label>
+            <input type="number" id="totalClasses" placeholder="Enter total classes" />
+        </div>
+        <div class="input-group">
+            <label for="attendedClasses">Attended Classes:</label>
+            <input type="number" id="attendedClasses" placeholder="Enter attended classes" />
+        </div>
+        <button id="calculateBtn">Calculate Attendance</button>
+
+        <div class="result">
+            <h2>Attendance Summary</h2>
+            <p id="currentAttendance">Current Attendance: 0%</p>
+            <p id="classesNeeded">Classes Needed for 75%: 0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
